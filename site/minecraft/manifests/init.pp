@@ -1,6 +1,7 @@
 class minecraft {
-  $url = "https://......."
+  $url = "https://.......",
   $install_dir = '/opt/minecraft'
+}{
   file { $install_dir:
     ensure  => directory,
   }
